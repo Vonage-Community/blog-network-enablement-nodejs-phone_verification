@@ -4,7 +4,6 @@ const cors = require("cors");
 require("dotenv").config();
 
 // Auth URIs
-const oidc_auth_uri = "https://oidc.idp.vonage.com/oauth2/auth";
 const camara_auth_uri = "https://api-eu-3.vonage.com/oauth2/token";
 
 // Number Verification API
